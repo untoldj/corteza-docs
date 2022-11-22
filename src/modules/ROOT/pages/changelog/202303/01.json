@@ -42,6 +42,18 @@
       "refs": [
         "https://github.com/cortezaproject/corteza-js/pull/73/commits/1a77d99e54697f1bbe29622688996dc05a8c06c4"
       ]
+    },
+    {
+      "what": [
+        "auth Background Image card with a reactive image uploader form and a multiline text editor with CSS syntax highlighting on the System settings page."
+      ],
+      "why": [
+        "because to add support for Auth personalized screen.",
+        "Uploading the image will update the Auth background image, and the styles will supplement Auth screen's styles."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/446/commits/86d348700ad53aa9272d40bff97d0fdba03ee76e"
+      ]
     }
   ],
 
