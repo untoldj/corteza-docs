@@ -54,6 +54,46 @@
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/446/commits/86d348700ad53aa9272d40bff97d0fdba03ee76e"
       ]
+    },
+    {
+      "what": [
+        "new page block type for Geometry",
+        "Geometry page block renders a map within the rendering constraint from the Geometry configurator with points/markers and polygons.",
+        "Geometry configurator loads data from the configured feed sources."
+      ],
+      "why": [
+        "user can now configure a feed source for the Geometry which then loads the data in the record page, which is now rendered in markers and polygons."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/538/commits/82249fa67ea5d31656001d9f358d6e6abf5539a2" 
+      ]
+    },
+    {
+      "what": [
+        "new features to module Field configuration for styling image (fix height, fix width, rounded corners, border radius, background color, margin).",
+        "The applied style changes in module field setting now reflect on only file with single image and gallery mode selected as the view mode when viewing record page or record list page."
+      ],
+      "why": [
+        "to provide the user with more customization and styling option on viewing images."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/533/commits/ccd90d74d4945e96d21281c68bfe9f18bc394844"
+      ]
+    },
+    {
+      "what": [
+        "a record list page block in the Compose page builder with a dropdown field with three options for opening a record: in the same tab, in a new tab or in a modal.",
+        "The new added option is the `open record in a modal`.",
+        "When this option is selected and the user goes to a record list page or a page that displays record lists, he can click on a specific record and it will open as a modal.",
+        "From the modal, the user can do whatever he wants with the existing record (edit, delete, clone) or even add a new record."
+      ],
+      "why": [
+        "to make record entry a bit more intuitive, since the user will remain on the record list page while doing the changes."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/524/commits/2647e3b8d72afa31e79457f3cd985ae0b7fa31fc",
+        "https://github.com/cortezaproject/corteza/pull/524/commits/950d305a5a8fb79ee84599989a399af7d028f599"
+      ]
     }
   ],
 
@@ -143,41 +183,6 @@
       ],
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/523/commits/07d41dcd8c1f40abf17f90868953eeb3603e0809" 
-      ]
-    },
-    {
-      "what": [
-        "new page block type for Geometry",
-        "Geometry page block renders a map within the rendering constraint from the Geometry configurator with points/markers and polygons.",
-        "Geometry configurator loads data from the configured feed sources."
-      ],
-      "why": [
-        "user can now configure a feed source for the Geometry which then loads the data in the record page, which is now rendered in markers and polygons."
-      ],
-      "how": [
-        "by creating a new Geometry page block in js/compose.",
-        "By adding the logic to configure the feed source for the Geometry.",
-        "Also by loading the data from the configured feeds, which is then convert to display the markers and polygons on the map."
-      ],
-      "refs": [
-        "https://github.com/cortezaproject/corteza/pull/538/commits/82249fa67ea5d31656001d9f358d6e6abf5539a2" 
-      ]
-    },
-    {
-      "what": [
-        "new features to module Field configuration for styling image (fix height, fix width, rounded corners, border radius, background color, margin).",
-        "The applied style changes in module field setting now reflect on only file with single image and gallery mode selected as the view mode when viewing record page or record list page."
-      ],
-      "why": [
-        "to provide the user with more customization and styling option on viewing images."
-      ],
-      "how": [
-        "by updating File module field on corteza-js to accept the styling properties.",
-        "By updating List loader component with new styling properties for files with single and gallery mode.",
-        "By updating File page block on corteza-js to accept the styling properties."
-      ],
-      "refs": [
-        "https://github.com/cortezaproject/corteza/pull/533/commits/ccd90d74d4945e96d21281c68bfe9f18bc394844"
       ]
     },
     {
