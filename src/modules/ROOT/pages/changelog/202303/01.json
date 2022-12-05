@@ -1,6 +1,6 @@
 {
   "meta": {
-    "releasedOn": "2022.xx.xx"
+    "releasedOn": "2022.12.13"
   },
 
   "Added": [
@@ -93,6 +93,17 @@
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/524/commits/2647e3b8d72afa31e79457f3cd985ae0b7fa31fc",
         "https://github.com/cortezaproject/corteza/pull/524/commits/950d305a5a8fb79ee84599989a399af7d028f599"
+      ]
+    },
+    {
+      "what": [
+        "the ability to copy, clone, and paste page blocks in page builders."
+      ],
+      "why": [
+        "to make it possible to duplicate page blocks easily."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/582/commits/7f377109d0b46ade1b04857569622829f917321b"
       ]
     }
   ],
