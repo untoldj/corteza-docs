@@ -105,6 +105,19 @@
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/582/commits/7f377109d0b46ade1b04857569622829f917321b"
       ]
+    },
+    {
+      "what": [
+        "an option to magnify certain page blocks when viewing a public Compose page.",
+        "A select dropdown has been added in the general tab of page block configuration modal for calendar, chart, content, comments, file, iframe, record list, report and record revisions page blocks.",
+        "The user can select between Fullwidth or Modal select option, and when enabled, the user will see a magnify icon at the top of the block."
+      ],
+      "why": [
+        "to help users finding the info they are looking for much faster and easier with the option to magnify certain page blocks."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/576/commits/1a836ddf2c0c9e5892b791ba201032d5d8a37365"
+      ]
     }
   ],
 
@@ -194,20 +207,6 @@
       ],
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/523/commits/07d41dcd8c1f40abf17f90868953eeb3603e0809" 
-      ]
-    },
-    {
-      "what": [
-        ""
-      ],
-      "why": [
-        ""
-      ],
-      "how": [
-        ""
-      ],
-      "refs": [
-        ""
       ]
     }
   ],
