@@ -197,7 +197,7 @@
       ],
       "why": [
         "To prevent users from disabling Record ID field on system field mapping and encoding.",
-        "Unavailable feilds unchecked give users access to view system fields that are not available.",
+        "Unavailable fields unchecked give users access to view system fields that are not available.",
         "Also this was changed to give users easy access to enable/disable system fields based on the button options provided."
       ],
       "how": [
@@ -207,6 +207,22 @@
       ],
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/523/commits/07d41dcd8c1f40abf17f90868953eeb3603e0809" 
+      ]
+    },
+    {
+      "what": [
+        "the name of a page when was copied multiply times was changed to show the copy and after that the name of the page and a counter in brackets."
+      ],
+      "why": [
+        "to improve user experience.",
+        "If we copy a page 3-4 or more times, the naming gets confusing and too long."
+      ],
+      "how": [
+        "by filtering how many times a certain page with same name already exists and including 'copy of' prefix and number suffix.",
+        "Depending on the number of pages that match the same name, a counter is adjusted."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/644/commits/cbaca62b474fac5e9a19e9c500104fb93bf0ac9d" 
       ]
     }
   ],
