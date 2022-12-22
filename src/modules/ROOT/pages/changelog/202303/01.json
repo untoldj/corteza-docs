@@ -118,6 +118,17 @@
       "refs": [
         "https://github.com/cortezaproject/corteza/pull/576/commits/1a836ddf2c0c9e5892b791ba201032d5d8a37365"
       ]
+    },
+    {
+      "what": [
+        "a spinner to indicate when an action in template editor is submitted."
+      ],
+      "why": [
+        "to have an UI consistency, because it was difficult to tell when your changes were being submitted."
+      ],
+      "refs": [
+        "https://github.com/cortezaproject/corteza/pull/708/commits/7a4a0dfc87756194f66365f1aad26b1447b4b2b5"
+      ]
     }
   ],
 
